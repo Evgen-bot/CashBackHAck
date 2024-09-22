@@ -27,7 +27,7 @@ public class CashbackHackServiceTest {
 
     }
 
-    @org.junit.Test
+    @org.testng.annotations.Test
 
     public void testRemain1WithCashBack() {
         CashbackHackService service = new CashbackHackService();
@@ -38,7 +38,7 @@ public class CashbackHackServiceTest {
 
     }
 
-    @org.junit.Test
+    @org.testng.annotations.Test
 
     public void testRemain999WithCashBack() {
         CashbackHackService service = new CashbackHackService();
